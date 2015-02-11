@@ -24,7 +24,7 @@ cache.fetch('mykey', {
     });
   },
   done: function(data){
-    doSomeAsyncStuff(data);
+    doSomeStuff(data);
   }
 });
 ```
