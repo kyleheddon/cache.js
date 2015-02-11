@@ -18,6 +18,7 @@ fetch(key, options);
 ---
 ```
 cache.fetch('mykey', {
+  expiresIn: 1000 * 60 * 2, // 2 minutes  
   get: function(done){
     makeAjaxCall(function(data){
       done(data);
