@@ -3,11 +3,20 @@
 
 Localstorage cache
 
---- Usage
+Usage
+===
 ```
 var Cache = require('cache.js');
 var cache = new Cache({ namespace: 'mynamespace' });
 
+cache.get(function(value){
+  doSomeStuff(value);
+});
+```
+
+fetch(key, options);
+---
+```
 cache.fetch('mykey', {
   get: function(done){
     makeAjaxCall(function(data){
