@@ -9,7 +9,7 @@ Usage
 var Cache = require('cache.js');
 var cache = new Cache({ namespace: 'mynamespace' });
 
-cache.get(function(value){
+cache.get('mykey', function(value){
   doSomeStuff(value);
 });
 ```
