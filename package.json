@@ -1,0 +1,22 @@
+{
+    "name": "cache.js",
+    "title": "cache.js",
+    "description": "Local storage cache wrapper",
+    "author": "Kyle Heddon",
+    "repository": {
+    "type": "git",
+    "url": "https://github.com/kyleheddon/cache.js.git"
+},
+    "homepage": "http://github.com/kyleheddon/cache.js",
+    "main": "index.js",
+    "version": "0.0.1",
+    "devDependencies": {
+        "gulp": "~3.8",
+        "gulp-jasmine": "~2.0",
+        "sinon": "~1.12",
+        "localStorage": "~1.0"
+    },
+    "scripts": {
+        "test": "gulp test"
+    }
+}
