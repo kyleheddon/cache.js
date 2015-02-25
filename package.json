@@ -13,7 +13,6 @@
     "devDependencies": {
         "gulp": "~3.8",
         "gulp-jasmine": "~2.0",
-        "sinon": "~1.12",
         "localStorage": "~1.0"
     },
     "scripts": {
