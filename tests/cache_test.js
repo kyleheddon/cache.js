@@ -88,4 +88,14 @@ describe('The module', function() {
 
     });
 
+    describe('delete()', function(){
+        beforeEach(function(){
+            cache.set('kyle', 'rox');
+            cache.delete('kyle');
+        })
+        it('deletes the value for that key', function(){
+            assert(cache.get('kyle') == null);
+        })
+    })
+
 });

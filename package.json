@@ -4,9 +4,9 @@
     "description": "Local storage cache wrapper",
     "author": "Kyle Heddon",
     "repository": {
-    "type": "git",
-    "url": "https://github.com/kyleheddon/cache.js.git"
-},
+        "type": "git",
+        "url": "https://github.com/kyleheddon/cache.js.git"
+    },
     "homepage": "http://github.com/kyleheddon/cache.js",
     "main": "index.js",
     "version": "0.0.1",
