@@ -11,19 +11,19 @@ describe('The module', function() {
         cache = new Cache({ localStorage: localStorage });
     });
 
-    describe('get', function() {
-        beforeEach(function(){
-            cache.set('kyle', 'rox');
-        });
+    describe('get()', function() {
+        describe('When a value is set using set()', function(){
+            beforeEach(function(){
+                cache.set('kyle', 'rox');
+            });
 
-        it('Gets the value', function() {
-            assert(cache.get('kyle') == 'rox');
-        });
-
+            it('Gets the value', function() {
+                assert(cache.get('kyle') == 'rox');
+            });
+        })
     });
 
-    describe('set', function(){
-
+    describe('set()', function(){
         describe('When expiration is set', function(){
             var itPasses = function(){
                 it('expires in that number * milliseconds', function(done){
@@ -87,5 +87,6 @@ describe('The module', function() {
 
         })
 
-    })
+    });
+
 });
