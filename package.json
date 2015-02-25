@@ -9,7 +9,7 @@
     },
     "homepage": "http://github.com/kyleheddon/cache.js",
     "main": "index.js",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "devDependencies": {
         "gulp": "~3.8",
         "gulp-jasmine": "~2.0",
